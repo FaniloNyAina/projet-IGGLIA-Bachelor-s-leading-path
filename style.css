@@ -13,7 +13,7 @@ html {
     background-color: #dfeaff;
 }
 
-a{
+a {
     cursor: pointer;
 }
 
@@ -157,6 +157,7 @@ header .menu li a {
 
 .information a {
     color: black;
+    font-size: 20px;
     margin-top: 25px;
     text-decoration: none;
 }
@@ -213,7 +214,7 @@ header .menu li a {
     transition: 0.5s;
 }
 
-.bouton-onglet{
+.bouton-onglet {
     padding-left: 200px;
 }
 
@@ -252,17 +253,17 @@ span {
 }
 
 
-#matiere{
+#matiere {
     height: 170vh;
     padding: 25px;
 }
 
-.matiere p{
+.matiere p {
     text-align: center;
     margin-top: 25px;
 }
 
-.matiere h2{
+.matiere h2 {
     text-align: center;
     margin-top: 25px;
 }
@@ -293,7 +294,7 @@ span {
     transition: 0.5s;
 }
 
-.filiere:hover{
+.filiere:hover {
     background-color: #003db7;
     color: #fff;
 }
@@ -312,9 +313,9 @@ span {
     text-align: center;
 }
 
-#contact{
+#contact {
     height: 30vh;
-padding: 5px;
+    padding: 5px;
     /* margin: 0 10%; */
     background-color: #88b0ff59;
 }
@@ -326,7 +327,7 @@ padding: 5px;
 
 .c-moyens {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     text-transform: capitalize;
     color: #003db7;
@@ -338,14 +339,14 @@ padding: 5px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    margin: 0  20px;
+    margin: 0 20px;
     color: #003db7;
     cursor: pointer;
     transition: 0.5s;
 
 }
 
-.c-moyens button:hover{
+.c-moyens button:hover {
     background-color: #003db7;
     color: #fff;
     /* width: 55px;
@@ -355,7 +356,7 @@ padding: 5px;
 .c-moyens p {
     margin: 0;
     padding: 0;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .c-moyens i {
@@ -370,7 +371,3 @@ footer {
     color: #fff;
     height: 5vh;
 }
-
-
-
-
