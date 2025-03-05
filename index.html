@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachelor's leading path</title>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <!-- section accueil -->
+    <section id="container">
+        <header>
+            <div class="logo">
+                <p>Bachelor's leading path</p>
+            </div>
+            <ul class="menu">
+                <!-- <li><a href="#">Accueil</a></li> -->
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="container-text">
+            <h1>Site d'orientation pour les nouveaux bacheliers</h1>
+            <!-- <q>Nous vous aidons à choisir votre étude à l'ISPM</q> -->
+            <P style="padding-bottom: 20px; color: #fff; font-size: large;">Réponder au
+                questionnaire en appuyant sur le boutton "Commencer"</P>
+            <!-- <a href="#">Commencer</a> -->
+            <button>COMMENCER</button>
+        </div>
+    </section>
+
+    <!-- corps de la page -->
+    <main>
+        <!-- section a propos -->
+        <section id="a-propos">
+            <div class="a-propos">
+                <p class="title-section">À propos</p>
+                <h1 class="sub-title-section">C'est quoi bachelor's leading path ?</h1>
+                <div class="description-div">
+                    <div class="desc">
+                        <p>Bachelor'leading path est un site web qui a pour objectif d'aider les bacheliers du
+                            bacalauréat
+                            dans leurs choix d'aurientations s'ils veulent entrer à l'ISPM. A l'acceuil se trouve un
+                            questionnaire. Si vous voulez choisir vous même, on a regrouper dans la page les
+                            informations
+                            indispensable sur chaque departement et filière.</p>
+
+                        <h2>NOS INFORMATIONS CONCERNANTS ISPM</h2>
+                        <div class="liste-information">
+                            <div class="information">
+                                <i class='bx bx-building-house'></i>
+                                <a href="#departement-filiere">Département/filière</a>
+                            </div>
+                            <div class="information">
+                                <i class='bx bx-book'></i>
+                                <a href="#matiere">Matière</a>
+                            </div>
+                            <div class="information">
+                                <i class='bx bxs-graduation'></i>
+                                <a href="#inscription">Inscription</a>
+                            </div>
+                            <div class="information">
+                                <i class='bx bx-info-circle'></i>
+                                <a>Information</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section departement/filiere -->
+        <section id="departement-filiere" class="d-f">
+            <p class="title-section">Départements et filières</p>
+            <h1 class="sub-title-section">Quels sont les départements et filières ?</h1>
+            <div class="departement-filiere">
+                <p>Nous avons répértorié les départements et les filières disponibles dans l'établissement. Chaque
+                    départements a ses spécificités.</p>
+
+                <h2>NOS DEPARTEMENTS ET FILIERES</h2>
+                <div class="onglet">
+                    <div class="bouton-onglet">
+                        <button class="tablinks" onclick="openTab(event, 'info')">INFORMATIQUE ET
+                            TELECOMMUNICATION</button>
+                        <button class="tablinks" onclick="openTab(event, 'affaire')">TECHNIQUES DES AFFAIRES</button>
+                        <button class="tablinks" onclick="openTab(event, 'bio')">BIOTECHNOLOGIE ET AGRONOMIE</button>
+                        <button class="tablinks" onclick="openTab(event, 'genie')">GENIE INDUSTRIEL ET GENIE
+                            CIVIL</button>
+                        <button class="tablinks" onclick="openTab(event, 'tour')">TECHNIQUES DU TOURISME</button>
+                    </div>
+                    <div class="contenu">
+                        <div id="info" class="contenu-onglet">
+                            <h2>INFORMATIQUE ET TELECOMMUNICATION</h2>
+                            <ul>
+                                <li><span>Informatique de Gestion Génie Logiciel et Intelligence Artificielle
+                                        (IGGLIA):</span> Toutes les entreprises (publiques ou privées) ne peuvent plus
+                                    se
+                                    passer de l'outil informatique surtout l'informatique appliquée à la gestion. La
+                                    filière
+                                    Informatique de Gestion Génie Logiciel et Intelligence Artificielle est une filière
+                                    dont
+                                    l'objectif est la formation d'Ingénieurs et de Techniciens Supérieurs capables de
+                                    maîtriser toutes les techniques informatiques relatives à la gestion des
+                                    entreprises.
+                                </li>
+                                <li><span>Electronique Système Informatique et Intelligence Artificielle (ESIIA):</span>
+                                    L'informatique n'est pas seulement le software. L'électronique est avant tout
+                                    l'origine
+                                    de l'informatique. Elle est aussi à l'origine de la technologie des
+                                    télécommunications.
+                                    Ainsi, c'est dans cette filière que l'ISPM donne une formation d'Ingénieurs et de
+                                    Techniciens Supérieurs qui seront capables de maîtriser à la fois l'électronique, la
+                                    structure des ordinateurs et des applications fondamentales de l'informatique.</li>
+                                <li><span>Informatique Multimédia Technologie de L'information et de la Communication et
+                                        Intelligence Artificielle (IMTICIA):</span> C'est une filière dont la finalité
+                                    est
+                                    la formation des étudiants dans l'informatique multimédia, la télécommunication et
+                                    d'une
+                                    manière générale dans les nouvelles technologies de l'information et de la
+                                    télécommunication.</li>
+                                <li><span>Informatique Statistique Appliquée et Intelligence Artificielle
+                                        (ISAIA):</span>
+                                    C'est une filière dont le but est de focaliser sur l'application des méthodes
+                                    statistiques avec les méthodes informatiques dans les divers domaines de l'Economie.
+                                    Le
+                                    cursus est basé sur un solide apprentissage des Mathématiques avec les éléments
+                                    Informatiques nécessaires. A l'issue de cette formation, les étudiants peuvent
+                                    travailler dans diverses branches de l'économie : les banques, les entreprises
+                                    industrielles, les entreprises commerciales.
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="affaire" class="contenu-onglet">
+                            <h2>TECHNIQUES DES AFFAIRES</h2>
+                            <ul>
+                                <li><span>Commerce et Administration des Affaires (CAA): </span>Madagascar comme presque
+                                    tous les pays du monde a opté pour l'économie libérale où la concurrence surtout sur
+                                    le
+                                    plan économique et commercial est très important. A cela s'ajoute le contexte de
+                                    mondialisation et de globalisation actuelles. C'est dans ce sens que nous avons créé
+                                    la
+                                    filière commerce et administration des affaires qui est une filière de formation
+                                    fondée
+                                    sur le marketing et les différentes techniques commerciales ainsi que les
+                                    différentes
+                                    techniques d'organisation et de management des entreprises.</li>
+                                <li><span>Finances et Comptabilités (FIC):</span> Toute entreprise qu'elle soit publique
+                                    ou
+                                    privée ne peut se passer des services offerts par les départements finances et
+                                    comptabilités. Ce sont les départements clés d'une entreprise. C'est dans ce sens
+                                    que
+                                    nous avons créé cette filière dont l'objectif est de former des étudiants dans les
+                                    différentes techniques quantitatives de la gestion des entreprises telles que les
+                                    finances et la comptabilité.</li>
+                                <li><span>Droit et Techniques Juridiques des Affaires (DTJA):</span> Dans cette filière,
+                                    l'ISPM veut former des juristes capables de maîtriser toutes les techniques
+                                    juridiques à
+                                    la fois nationales et internationales. L'originalité de cette filière est qu'elle
+                                    utilise l'outil informatique. Les techniciens du droit formés par l'ISPM pourront
+                                    travailler soit dans l'administration publique soit dans les entreprises privées.
+                                </li>
+                                <li><span>Economie et Management de Projet (EMP):</span> La maîtrise des techniques
+                                    économiques est indispensable aux dirigeants de l'administration publique et des
+                                    entreprises privées à tous les niveaux. Dans cette filière, l'ISPM veut former des
+                                    économistes capables de faire des analyses économiques objectives, relationnelles et
+                                    de
+                                    les appliquer aux réalités des entreprises.
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="bio" class="contenu-onglet">
+                            <h2>BIOTECHNOLOGIE ET AGRONOMIE</h2>
+                            <ul>
+                                <li><span>Industrie Agroalimentaire (IAA):</span> Les différentes industries
+                                    agroalimentaires ont une place et un rôle important dans notre économie. L'ISPM a
+                                    comme
+                                    objectif de former des cadres de qualité pour ces entreprises.</li>
+                                <li><span>Pharmacologie et Industries Pharmaceutiques (PIP):</span> L'existence des
+                                    plantes
+                                    médicinales endémiques est une réalité à Madagascar. L'ISPM veut mettre en valeur
+                                    les
+                                    propriétés therapeutiques de ces plantes d'une manière scientifique.</li>
+                                <li><span>Agriculture et Elevage (AEE):</span> Plus de 80% de Malagasy vivent et
+                                    travaillent
+                                    dans le monde rural. Par ailleurs, il est clair que le secteur primaire est un des
+                                    secteurs fondamentaux dans l'économie d'un pays. C'est dans ce sens qu'a été créée
+                                    la
+                                    filière Agriculture et élevage car il nous faut des jeunes capables d'appliquer les
+                                    techniques et les technologies modernes dans le monde rural. Ils sont aussi formés
+                                    au
+                                    concept de l'agri-business.</li>
+                            </ul>
+                        </div>
+                        <div id="genie" class="contenu-onglet">
+                            <h2>GENIE INDUSTRIEL ET GENIE CIVIL</h2>
+                            <ul>
+                                <li><span>Electro-Mécanique et Informatique Industrielle (EMII):</span> Toute grande
+                                    école
+                                    polytechnique qui se respecte doit avoir un département d'éléctro-mécanique.
+                                    D'ailleurs,
+                                    la révolution industrielle n'a été possible qu'à travers la maîtrise de la mécanique
+                                    et
+                                    des technologies industrielles. ISPM par le biais de son département
+                                    Electro-Mécanique
+                                    et Informatique Industrielle (EMII) forme des jeunes capables de maîtriser toutes
+                                    les
+                                    technologies mentionnées ci-dessus auxquelles s'ajoutent l'informatique et
+                                    l'informatique industrielle. A l'issu de leurs études, ils seront capables de
+                                    participer
+                                    au développement industriel de Madagascar.</li>
+                                <li><span>Génie Civil et Architecture (GCA):</span> La construction des infrastructures
+                                    est
+                                    un élément fondamental pour améliorer le niveau de vie d'un pays. C'est pourquoi
+                                    l'ISPM
+                                    forme à travers sa filière Génie Civil et Architecture les jeunes qui vont améliorer
+                                    non
+                                    seulement les infrastructures mais participer à l'aménagement urbain et rural.</li>
+                                <li><span>Industries Chimiques, Minières et Pétrolières (ICMP):</span> Dans le contexte
+                                    actuel, tout pays qui se respecte doit avoir des jeunes capables de maîtriser les
+                                    différents domaines tels que les Industries Chimiques, Minières et Pétrolières.
+                                    C'est
+                                    dans ce sens nous avons créé cette filière.</li>
+                            </ul>
+                        </div>
+                        <div id="tour" class="contenu-onglet">
+                            <h2>TECHNIQUES DU TOURISME</h2>
+                            <ul>
+                                <li><span> Tourisme et Environnement (TEE):</span> Madagascar est un des rares pays au
+                                    monde
+                                    à avoir un environnement unique et endémique par sa faune et sa flore. Par ailleurs,
+                                    la
+                                    civilisation malagasy est aussi unique par l'apport des cultures à la fois
+                                    asiatiques,
+                                    africaines et plus tard européennes. La filière tourisme et environnement a pour
+                                    objectifs d'enseigner aux étudiants à la fois la richesse de notre environnement et
+                                    de
+                                    notre civilisation. Car ces étudiants seront les futurs professionnels du secteur
+                                    "tourisme".</li>
+                                <li><span> Tourisme et Hôtellerie (TEH):</span> La civilisation malagasy est unique par
+                                    l'apport des cultures à la fois asiatiques, africaines et plus tard européennes. La
+                                    filière tourisme et hôtellerie a pour objectifs d'enseigner aux étudiants la
+                                    richesse de
+                                    notre civilisation. Par ailleurs, les autres cultures ne seront pas négligées car
+                                    l'ISPM
+                                    forme des étudiants capables de maîtriser les différentes techniques de l'art
+                                    culinaire
+                                    à la fois national et international.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section matiere -->
+        <section id="matiere">
+            <p class="title-section">Les matières</p>
+            <h1 class="sub-title-section">Quelles sont les matières de chaque filière ?</h1>
+            <div class="matiere">
+                <p>Nous avons listé les matières de chaque filière ici.</p>
+
+                <h2>Matières de tous les filières</h2>
+                <div class="liste-matiere">
+                    <div class="container-matiere">
+
+
+                        <div>
+                            <div class="filiere" onclick="toggleMatieres('IGGLIA')">Informatique de Gestion Génie
+                                Logiciel
+                                et
+                                Intelligence
+                                Artificielle</div>
+                            <ul id="IGGLIA" class="matiere-list">
+                                <li>Langage C</li>
+                                <li>Base de Données</li>
+                                <li>Structure de données</li>
+                                <li>HTML et CSS</li>
+                                <li>Algèbre</li>
+                                <li>Français</li>
+                                <li>Organisation</li>
+                                <li>Analyse</li>
+                                <li>Comptabilité</li>
+                                <li>Probabilité</li>
+                                <li>Informatique scientifique</li>
+                                <li>Mathématique discrète</li>
+                                <li>Algorithme et programmation</li>
+                                <li>Mathématique financiere</li>
+                            </ul>
+
+                            <div class="filiere" onclick="toggleMatieres('ESIIA')">Éléctronique Système Informatique et
+                                Intelligence
+                                Artificielle</div>
+                            <ul id="ESIIA" class="matiere-list">
+                                <li>Algèbre</li>
+                                <li>Analyse</li>
+                                <li>HTML et CSS</li>
+                                <li>Éléctricité</li>
+                                <li>Éléctronique</li>
+                                <li>Langage C</li>
+                                <li>Algorithme et programmation</li>
+                                <li>Structure de données</li>
+                                <li>Probabilité</li>
+                                <li>Structure des ordinateurs</li>
+                                <li>Français</li>
+                                <li>Mathématique discrète</li>
+                                <li>Base de données</li>
+                                <li>Informatique scientifique</li>
+                            </ul>
+
+                            <div class="filiere" onclick="toggleMatieres('ISAIA')">Informatique Statistique Appliqué et
+                                Intelligence
+                                Artificielle</div>
+                            <ul id="ISAIA" class="matiere-list">
+                                <li>HTML et CSS</li>
+                                <li>Algèbre</li>
+                                <li>langage C</li>
+                                <li>Base de données</li>
+                                <li>Microéconomie</li>
+                                <li>Macroéconomie</li>
+                                <li>Analyse</li>
+                                <li>Combinatoire et probabilté</li>
+                                <li>Statistique appliqué</li>
+                                <li>Informatique scientifique</li>
+                                <li>Structure de données</li>
+                                <li>Français</li>
+                                <li>Mathématique discrète</li>
+                                <li>Algorithme et programmation</li>
+                            </ul>
+
+                            <div class="filiere" onclick="toggleMatieres('IMTICIA')">Informatique Multimédia Téchnologie
+                                de
+                                l'Information et
+                                de la Communication et Intelligence Artificielle</div>
+                            <ul id="IMTICIA" class="matiere-list">
+                                <li>Algèbre</li>
+                                <li>NTT</li>
+                                <li>Français</li>
+                                <li>TAV</li>
+                                <li>Technique de communication</li>
+                                <li>Base de données</li>
+                                <li>Algorithme et programmation</li>
+                                <li>Langage C</li>
+                                <li>Analyse</li>
+                                <li>Probabilité</li>
+                                <li>Informatique scientifique</li>
+                                <li>HTML et CSS</li>
+                                <li>Structure de données</li>
+                                <li>Musique</li>
+                                <li>Mathématique discrète</li>
+                                <li>PAO</li>
+                            </ul>
+                        </div>
+
+
+                        <div>
+                            <div class="filiere" onclick="toggleMatieres('CAA')">Commerce et Administration des Affaires
+                            </div>
+                            <ul id="CAA" class="matiere-list">
+                                <li>Probabilité</li>
+                                <li>Technique de communication</li>
+                                <li>Comptabilité</li>
+                                <li>Statistique</li>
+                                <li>Stratégie quantitative</li>
+                                <li>Mathématique financière</li>
+                                <li>Organisation</li>
+                                <li>Anglais</li>
+                                <li>Technique d'acceuil</li>
+                                <li>Économie</li>
+                                <li>Marketing</li>
+                                <li>Allemand</li>
+                                <li>Français</li>
+                                <li>Informatique</li>
+                                <li>Mathématique générale</li>
+                            </ul>
+
+                            <div class="filiere" onclick="toggleMatieres('FIC')">Finances et Comptabilités</div>
+                            <ul id="FIC" class="matiere-list">
+                                <li>Finance d'entreprise</li>
+                                <li>Organisation</li>
+                                <li>Anglais</li>
+                                <li>Informatique</li>
+                                <li>Institution financière</li>
+                                <li>Économie</li>
+                                <li>Mathématique financière</li>
+                                <li>Français</li>
+                                <li>Stratégie qunatitative</li>
+                                <li>Marketing</li>
+                                <li>Technique de communication</li>
+                                <li>Allemand</li>
+                                <li>Statistique</li>
+                                <li>Mathématique générale</li>
+                                <li>Choix d'investissement</li>
+                                <li>Comptabilité</li>
+                                <li>Droit</li>
+                                <li>Probabilité</li>
+                            </ul>
+
+                            <div class="filiere" onclick="toggleMatieres('DTJA')">Droit et Techniques Juridiques des
+                                Affaires</div>
+                            <ul id="DTJA" class="matiere-list">
+                                <li>Marketing</li>
+                                <li>Droit de la famille</li>
+                                <li>Technique de communication</li>
+                                <li>Relation internationnale</li>
+                                <li>Introduction au droit</li>
+                                <li>Droit constititionnel</li>
+                                <li>Introduction au droit administratif</li>
+                                <li>Informatique</li>
+                                <li>Organisation</li>
+                                <li>Français</li>
+                                <li>HIE</li>
+                                <li>Allemand</li>
+                                <li>Économie</li>
+                                <li>Anglais</li>
+                                <li>Organisation des institutions judicières</li>
+                            </ul>
+
+                            <div class="filiere" onclick="toggleMatieres('EMP')">Économie et Management de Projet</div>
+                            <ul id="EMP" class="matiere-list">
+                                <li>Comptabilité</li>
+                                <li>Microéconomie</li>
+                                <li>Mathématique financière</li>
+                                <li>Anayse</li>
+                                <li>Statistique appliqué</li>
+                                <li>Stratégie quantitative</li>
+                                <li>Macroéconomie</li>
+                                <li>HIE</li>
+                                <li>Informatique</li>
+                                <li>Marketing</li>
+                                <li>Technique de communication</li>
+                                <li>Anglais</li>
+                                <li>Français</li>
+                                <li>Allemand</li>
+                                <li>Organisation</li>
+                                <li>Probabilité</li>
+                            </ul>
+                        </div>
+
+
+                        <div>
+                            <div class="filiere" onclick="toggleMatieres('IAA')">Industrie Agroalimentaire</div>
+                            <ul id="IAA" class="matiere-list">
+                                <li>Biologie végétale</li>
+                                <li>Analyse</li>
+                                <li>Probabilité</li>
+                                <li>Biochimie</li>
+                                <li>Chimie organique</li>
+                                <li>Atomistique</li>
+                                <li>Biologie animale</li>
+                                <li>Biologie cellulaire</li>
+                                <li>Français</li>
+                                <li>Physiologie animale</li>
+                                <li>Génétique</li>
+                                <li>Informatique</li>
+                                <li>Microbiologie</li>
+                            </ul>
+
+                            <div class="filiere" onclick="toggleMatieres('PIP')">Pharmacologie et Industries
+                                Pharmaceutique
+                            </div>
+                            <ul id="PIP" class="matiere-list">
+                                <li>Biologie végétale</li>
+                                <li>Analyse</li>
+                                <li>Probabilité</li>
+                                <li>Biochimie</li>
+                                <li>Chimie organique</li>
+                                <li>Atomistique</li>
+                                <li>Biologie animale</li>
+                                <li>Biologie cellulaire</li>
+                                <li>Français</li>
+                                <li>Physiologie animale</li>
+                                <li>Génétique</li>
+                                <li>Informatique</li>
+                                <li>Microbiologie</li>
+
+                            </ul>
+
+                            <div class="filiere" onclick="toggleMatieres('AEE')">Agriculture et Élevage</div>
+                            <ul id="AEE" class="matiere-list">
+                                <li>Biologie végétale</li>
+                                <li>Analyse</li>
+                                <li>Probabilité</li>
+                                <li>Biochimie</li>
+                                <li>Chimie organique</li>
+                                <li>Atomistique</li>
+                                <li>Biologie animale</li>
+                                <li>Biologie cellulaire</li>
+                                <li>Français</li>
+                                <li>Physiologie animale</li>
+                                <li>Génétique</li>
+                                <li>Informatique</li>
+                                <li>Microbiologie</li>
+                            </ul>
+                        </div>
+
+
+                        <div>
+                            <div class="filiere" onclick="toggleMatieres('EMII')">Éléctro-Mécanique et Informatique
+                                Industrielle</div>
+                            <ul id="EMII" class="matiere-list">
+                                <li>Mécanique rationnelle</li>
+                                <li>RDM</li>
+                                <li>Français</li>
+                                <li>AutoCAD</li>
+                                <li>MCI</li>
+                                <li>Mécanique des fluides</li>
+                                <li>Informatique</li>
+                                <li>Algèbre</li>
+                                <li>Dessin</li>
+                                <li>Analyse</li>
+                                <li>Ouvrage métallique</li>
+                                <li>Fabrication mécanique</li>
+                                <li>Éléctronique</li>
+                                <li>Éléctricité</li>
+                            </ul>
+
+                            <div class="filiere" onclick="toggleMatieres('GCA')">Genie Civil et Architecture</div>
+                            <ul id="GCA" class="matiere-list">
+                                <li>Topographie</li>
+                                <li>Technologie des bâtiments</li>
+                                <li>Analyse</li>
+                                <li>Français</li>
+                                <li>Mécanique des fluides</li>
+                                <li>Métré</li>
+                                <li>Chimie</li>
+                                <li>Dessin</li>
+                                <li>Algèbre</li>
+                                <li>Géologie appliquée</li>
+                                <li>MDC</li>
+                                <li>Informatique</li>
+                                <li>RDM</li>
+                                <li>Technologie des bâtiments</li>
+                            </ul>
+
+                            <div class="filiere" onclick="toggleMatieres('ICMP')">Industries Chimiques, Minières, et
+                                Petrolières</div>
+                            <ul id="ICMP" class="matiere-list">
+                                <li>Minéralogie</li>
+                                <li>RDM</li>
+                                <li>Français</li>
+                                <li>AutoCAD</li>
+                                <li>Atomistique</li>
+                                <li>Informatique</li>
+                                <li>Mécanique des fluides</li>
+                                <li>Algèbre</li>
+                                <li>Géodynamique</li>
+                                <li>Analyse</li>
+                                <li>Chimie minérale</li>
+                                <li>Chimie organique</li>
+                            </ul>
+                        </div>
+
+
+                        <div>
+                            <div class="filiere" onclick="toggleMatieres('TEE')">Tourisme et Environnement</div>
+                            <ul id="TEE" class="matiere-list">
+                                <li>Marketing</li>
+                                <li>Français</li>
+                                <li>Science des aliments</li>
+                                <li>Nutrition humaine</li>
+                                <li>Économie</li>
+                                <li>Environnement</li>
+                                <li>Organisation</li>
+                                <li>Écologie animale</li>
+                                <li>Site touristique</li>
+                                <li>Art culinaire</li>
+                                <li>Technique d'agence</li>
+                                <li>Hygiène</li>
+                                <li>Allemand</li>
+                                <li>Anglais</li>
+                                <li>Technique d'acceuil</li>
+                                <li>Flore</li>
+                                <li>Technique de communication</li>
+                            </ul>
+
+                            <div class="filiere" onclick="toggleMatieres('TEH')">Tourisme et Hôtellerie</div>
+                            <ul id="TEH" class="matiere-list">
+                                <li>Marketing</li>
+                                <li>Français</li>
+                                <li>Science des aliments</li>
+                                <li>Nutrition humaine</li>
+                                <li>Économie</li>
+                                <li>Environnement</li>
+                                <li>Organisation</li>
+                                <li>Écologie animale</li>
+                                <li>Site touristique</li>
+                                <li>Art culinaire</li>
+                                <li>Technique d'agence</li>
+                                <li>Hygiène</li>
+                                <li>Allemand</li>
+                                <li>Anglais</li>
+                                <li>Technique d'acceuil</li>
+                                <li>Flore</li>
+                                <li>Technique de communication</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- section inscription -->
+        <section id="contact">
+            <div class="contact">
+                <p class="title-section">Contact</p>
+                <div class="contact-container">
+                    <div class="contenu">
+                        <p>Si vous avez besoin de plus d'information, vous pouvez nous contacter via les moyens
+                            ci-dessous.
+                        </p>
+
+                        <div class="c-moyens">
+                            <div class="f">
+                                <button class="facebook"><i class='bx bxl-facebook'></i></button>
+                                <p>facebook</p>
+                            </div>
+                            <div class="c">
+                                <button class="contact"><i class='bx bx-phone'></i></button>
+                                <p>Appel</p>
+                            </div>
+                            <div class="m">
+                                <button class="mail"><i class='bx bxl-gmail'></i></button>
+                                <p>mail</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- <p>tous droit reserver</p> -->
+    </footer>
+
+</body>
+
+</html>

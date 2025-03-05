@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filières et Matières</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #003db7;
+        }
+
+        .container-matiere {
+            max-width: 500px;
+            margin: auto;
+            background: #003db7;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .filiere {
+            background: #130072;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .matiere-list {
+            list-style-type: none;
+            padding: 0;
+            display: none;
+        }
+
+        .matiere-list li {
+            background: white;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-matiere">
+        <h2>Filières et Matières</h2>
+
+        <!-- Departement INFORMATIQUE ET TELECOMMUNICATION  -->
+        <div>
+            <div class="filiere" onclick="toggleMatieres('IGGLIA')">Informatique de Gestion Génie Logiciel et
+                Intelligence
+                Artificielle</div>
+            <ul id="IGGLIA" class="matiere-list">
+                <li>Langage C</li>
+                <li>Base de Données</li>
+                <li>Structure de données</li>
+                <li>HTML et CSS</li>
+                <li>Algèbre</li>
+                <li>Français</li>
+                <li>Organisation</li>
+                <li>Analyse</li>
+                <li>Comptabilité</li>
+                <li>Probabilité</li>
+                <li>Informatique scientifique</li>
+                <li>Mathématique discrète</li>
+                <li>Algorithme et programmation</li>
+                <li>Mathématique financiere</li>
+            </ul>
+
+            <div class="filiere" onclick="toggleMatieres('ESIIA')">Éléctronique Système Informatique et Intelligence
+                Artificielle</div>
+            <ul id="ESIIA" class="matiere-list">
+                <li>Algèbre</li>
+                <li>Analyse</li>
+                <li>HTML et CSS</li>
+                <li>Éléctricité</li>
+                <li>Éléctronique</li>
+                <li>Langage C</li>
+                <li>Algorithme et programmation</li>
+                <li>Structure de données</li>
+                <li>Probabilité</li>
+                <li>Structure des ordinateurs</li>
+                <li>Français</li>
+                <li>Mathématique discrète</li>
+                <li>Base de données</li>
+                <li>Informatique scientifique</li>
+            </ul>
+
+            <div class="filiere" onclick="toggleMatieres('ISAIA')">Informatique Statistique Appliqué et Intelligence
+                Artificielle</div>
+            <ul id="ISAIA" class="matiere-list">
+                <li>HTML et CSS</li>
+                <li>Algèbre</li>
+                <li>langage C</li>
+                <li>Base de données</li>
+                <li>Microéconomie</li>
+                <li>Macroéconomie</li>
+                <li>Analyse</li>
+                <li>Combinatoire et probabilté</li>
+                <li>Statistique appliqué</li>
+                <li>Informatique scientifique</li>
+                <li>Structure de données</li>
+                <li>Français</li>
+                <li>Mathématique discrète</li>
+                <li>Algorithme et programmation</li>
+            </ul>
+
+            <div class="filiere" onclick="toggleMatieres('IMTICIA')">Informatique Multimédia Téchnologie de
+                l'Information et
+                de la Communication et Intelligence Artificielle</div>
+            <ul id="IMTICIA" class="matiere-list">
+                <li>Algèbre</li>
+                <li>NTT</li>
+                <li>Français</li>
+                <li>TAV</li>
+                <li>Technique de communication</li>
+                <li>Base de données</li>
+                <li>Algorithme et programmation</li>
+                <li>Langage C</li>
+                <li>Analyse</li>
+                <li>Probabilité</li>
+                <li>Informatique scientifique</li>
+                <li>HTML et CSS</li>
+                <li>Structure de données</li>
+                <li>Musique</li>
+                <li>Mathématique discrète</li>
+                <li>PAO</li>
+            </ul>
+        </div>
+
+        <!-- Departement TECHNIQUES DES AFFAIRES -->
+        <div>
+            <div class="filiere" onclick="toggleMatieres('CAA')">Commerce et Administration des Affaires</div>
+            <ul id="CAA" class="matiere-list">
+                <li>Probabilité</li>
+                <li>Technique de communication</li>
+                <li>Comptabilité</li>
+                <li>Statistique</li>
+                <li>Stratégie quantitative</li>
+                <li>Mathématique financière</li>
+                <li>Organisation</li>
+                <li>Anglais</li>
+                <li>Technique d'acceuil</li>
+                <li>Économie</li>
+                <li>Marketing</li>
+                <li>Allemand</li>
+                <li>Français</li>
+                <li>Informatique</li>
+                <li>Mathématique générale</li>
+            </ul>
+
+            <div class="filiere" onclick="toggleMatieres('FIC')">Finances et Comptabilités</div>
+            <ul id="FIC" class="matiere-list">
+                <li>Finance d'entreprise</li>
+                <li>Organisation</li>
+                <li>Anglais</li>
+                <li>Informatique</li>
+                <li>Institution financière</li>
+                <li>Économie</li>
+                <li>Mathématique financière</li>
+                <li>Français</li>
+                <li>Stratégie qunatitative</li>
+                <li>Marketing</li>
+                <li>Technique de communication</li>
+                <li>Allemand</li>
+                <li>Statistique</li>
+                <li>Mathématique générale</li>
+                <li>Choix d'investissement</li>
+                <li>Comptabilité</li>
+                <li>Droit</li>
+                <li>Probabilité</li>
+            </ul>
+
+            <div class="filiere" onclick="toggleMatieres('DTJA')">Droit et Techniques Juridiques des Affaires</div>
+            <ul id="DTJA" class="matiere-list">
+                <li>Marketing</li>
+                <li>Droit de la famille</li>
+                <li>Technique de communication</li>
+                <li>Relation internationnale</li>
+                <li>Introduction au droit</li>
+                <li>Droit constititionnel</li>
+                <li>Introduction au droit administratif</li>
+                <li>Informatique</li>
+                <li>Organisation</li>
+                <li>Français</li>
+                <li>HIE</li>
+                <li>Allemand</li>
+                <li>Économie</li>
+                <li>Anglais</li>
+                <li>Organisation des institutions judicières</li>
+            </ul>
+
+            <div class="filiere" onclick="toggleMatieres('EMP')">Économie et Management de Projet</div>
+            <ul id="EMP" class="matiere-list">
+                <li>Comptabilité</li>
+                <li>Microéconomie</li>
+                <li>Mathématique financière</li>
+                <li>Anayse</li>
+                <li>Statistique appliqué</li>
+                <li>Stratégie quantitative</li>
+                <li>Macroéconomie</li>
+                <li>HIE</li>
+                <li>Informatique</li>
+                <li>Marketing</li>
+                <li>Technique de communication</li>
+                <li>Anglais</li>
+                <li>Français</li>
+                <li>Allemand</li>
+                <li>Organisation</li>
+                <li>Probabilité</li>
+            </ul>
+        </div>
+
+        <!-- Departement BIOTECHNOLOGIE ET AGRONOMIE -->
+        <div>
+            <div class="filiere" onclick="toggleMatieres('IAA')">Industrie Agroalimentaire</div>
+            <ul id="IAA" class="matiere-list">
+                <li>Biologie végétale</li>
+                <li>Analyse</li>
+                <li>Probabilité</li>
+                <li>Biochimie</li>
+                <li>Chimie organique</li>
+                <li>Atomistique</li>
+                <li>Biologie animale</li>
+                <li>Biologie cellulaire</li>
+                <li>Français</li>
+                <li>Physiologie animale</li>
+                <li>Génétique</li>
+                <li>Informatique</li>
+                <li>Microbiologie</li>
+            </ul>
+
+            <div class="filiere" onclick="toggleMatieres('PIP')">Pharmacologie et Industries Pharmaceutique</div>
+            <ul id="PIP" class="matiere-list">
+                <li>Biologie végétale</li>
+                <li>Analyse</li>
+                <li>Probabilité</li>
+                <li>Biochimie</li>
+                <li>Chimie organique</li>
+                <li>Atomistique</li>
+                <li>Biologie animale</li>
+                <li>Biologie cellulaire</li>
+                <li>Français</li>
+                <li>Physiologie animale</li>
+                <li>Génétique</li>
+                <li>Informatique</li>
+                <li>Microbiologie</li>
+
+            </ul>
+
+            <div class="filiere" onclick="toggleMatieres('AEE')">Agriculture et Élevage</div>
+            <ul id="AEE" class="matiere-list">
+                <li>Biologie végétale</li>
+                <li>Analyse</li>
+                <li>Probabilité</li>
+                <li>Biochimie</li>
+                <li>Chimie organique</li>
+                <li>Atomistique</li>
+                <li>Biologie animale</li>
+                <li>Biologie cellulaire</li>
+                <li>Français</li>
+                <li>Physiologie animale</li>
+                <li>Génétique</li>
+                <li>Informatique</li>
+                <li>Microbiologie</li>
+            </ul>
+        </div>
+
+        <!-- Departement GENIE INDUSTRIEL ET GENIE CIVIL -->
+        <div>
+            <div class="filiere" onclick="toggleMatieres('EMII')">Éléctro-Mécanique et Informatique Industrielle</div>
+            <ul id="EMII" class="matiere-list">
+                <li>Mécanique rationnelle</li>
+                <li>RDM</li>
+                <li>Français</li>
+                <li>AutoCAD</li>
+                <li>MCI</li>
+                <li>Mécanique des fluides</li>
+                <li>Informatique</li>
+                <li>Algèbre</li>
+                <li>Dessin</li>
+                <li>Analyse</li>
+                <li>Ouvrage métallique</li>
+                <li>Fabrication mécanique</li>
+                <li>Éléctronique</li>
+                <li>Éléctricité</li>
+            </ul>
+
+            <div class="filiere" onclick="toggleMatieres('GCA')">Genie Civil et Architecture</div>
+            <ul id="GCA" class="matiere-list">
+                <li>Topographie</li>
+                <li>Technologie des bâtiments</li>
+                <li>Analyse</li>
+                <li>Français</li>
+                <li>Mécanique des fluides</li>
+                <li>Métré</li>
+                <li>Chimie</li>
+                <li>Dessin</li>
+                <li>Algèbre</li>
+                <li>Géologie appliquée</li>
+                <li>MDC</li>
+                <li>Informatique</li>
+                <li>RDM</li>
+                <li>Technologie des bâtiments</li>
+            </ul>
+
+            <div class="filiere" onclick="toggleMatieres('ICMP')">Industries Chimiques, Minières, et Petrolières</div>
+            <ul id="ICMP" class="matiere-list">
+                <li>Minéralogie</li>
+                <li>RDM</li>
+                <li>Français</li>
+                <li>AutoCAD</li>
+                <li>Atomistique</li>
+                <li>Informatique</li>
+                <li>Mécanique des fluides</li>
+                <li>Algèbre</li>
+                <li>Géodynamique</li>
+                <li>Analyse</li>
+                <li>Chimie minérale</li>
+                <li>Chimie organique</li>
+            </ul>
+        </div>
+
+        <!-- Departement TECHNIQUES DU TOURISME -->
+        <div>
+            <div class="filiere" onclick="toggleMatieres('TEE')">Tourisme et Environnement</div>
+            <ul id="TEE" class="matiere-list">
+                <li>Marketing</li>
+                <li>Français</li>
+                <li>Science des aliments</li>
+                <li>Nutrition humaine</li>
+                <li>Économie</li>
+                <li>Environnement</li>
+                <li>Organisation</li>
+                <li>Écologie animale</li>
+                <li>Site touristique</li>
+                <li>Art culinaire</li>
+                <li>Technique d'agence</li>
+                <li>Hygiène</li>
+                <li>Allemand</li>
+                <li>Anglais</li>
+                <li>Technique d'acceuil</li>
+                <li>Flore</li>
+                <li>Technique de communication</li>
+            </ul>
+
+            <div class="filiere" onclick="toggleMatieres('TEH')">Tourisme et Hôtellerie</div>
+            <ul id="TEH" class="matiere-list">
+                <li>Marketing</li>
+                <li>Français</li>
+                <li>Science des aliments</li>
+                <li>Nutrition humaine</li>
+                <li>Économie</li>
+                <li>Environnement</li>
+                <li>Organisation</li>
+                <li>Écologie animale</li>
+                <li>Site touristique</li>
+                <li>Art culinaire</li>
+                <li>Technique d'agence</li>
+                <li>Hygiène</li>
+                <li>Allemand</li>
+                <li>Anglais</li>
+                <li>Technique d'acceuil</li>
+                <li>Flore</li>
+                <li>Technique de communication</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleMatieres(id) {
+            let matiereList = document.getElementById(id);
+            if (matiereList.style.display === "block") {
+                matiereList.style.display = "none";
+            } else {
+                matiereList.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
