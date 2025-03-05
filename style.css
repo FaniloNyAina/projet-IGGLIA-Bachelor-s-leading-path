@@ -81,6 +81,7 @@ header .menu li a {
     border: 2px solid #fff;
     border-radius: 5px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .container-text button:hover {
