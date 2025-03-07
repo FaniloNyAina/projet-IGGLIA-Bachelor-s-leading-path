@@ -369,6 +369,6 @@ footer {
     background-color: #88b0ff59;
     text-align: center;
     font-size: 15px;
-    color: #fff;
+    /* color: #fff; */
     height: 5vh;
 }
